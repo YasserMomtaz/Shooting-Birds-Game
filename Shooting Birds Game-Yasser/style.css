@@ -1,0 +1,140 @@
+body
+{
+    background-image:  url("Background.jpg");
+    background-size: cover;
+}
+html{
+   cursor: url("source/crosshair.svg"), auto	;
+}
+div {
+    background-color: rgba(216, 207, 207, 0.5);
+    width: 30%;
+    height: auto;
+    border: 3px solid rgb(7, 150, 7) ;
+    border-radius: 30px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+}
+
+h1{
+    color: rgb(117, 50, 5);
+    font-size: 80px;
+    text-align: center;
+    -webkit-text-stroke: 0.5px rgb(2, 2, 2);
+    margin: 5px;
+ 
+}
+  
+h2{
+   color: rgb(13, 26, 201);
+   font-size: 30px;
+   margin: 2px;
+}
+
+h3{
+   color: rgb(201, 13, 13);
+   font-size: 30px;
+   margin: 2px;
+}
+
+h4{
+   color: rgb(2, 2, 2);
+   font-size: 30px;
+   margin: 2px;
+}
+
+p {
+  margin: auto;
+}
+
+span{
+    visibility: hidden;
+    font-size: smaller;
+    padding: 0px;
+}
+
+select {
+   width: 150px;
+   padding: 5px 25px 5px 5px;
+   font-size: 16px;
+   border: 1px solid #CCC;
+   height: 34px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background: url(Down.png) 96% / 15% no-repeat rgb(8, 8, 8);  
+   
+} 
+ .GameDive {
+   position: absolute;
+   top: 30%;
+   left: 40%;
+   margin-top: -50px;
+   margin-left: -50px;
+   background-color: rgb(216, 207, 207);
+}
+ .style{
+    background-color: rgba(216, 207, 207, 0.5);
+    border: 3px solid rgb(7, 150, 7) ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-size: large;
+    font-style: oblique;
+    -webkit-text-stroke: 0.5px rgb(2, 2, 2);
+    
+}
+ .style:hover {
+    background-color:  rgba(7, 150, 7, 0.9);
+    border: rgb(40, 40, 40) 4px solid;
+    cursor: url("source/Target.svg"), auto	;
+}
+  .styleGameButton{
+   background-color:  rgb(7, 150, 7);
+   border: 3px solid rgba(216, 207, 207, 0.5) ;
+   border-radius: 10px;
+   text-align: center;
+   padding: 5px 5px 5px 5px;
+   font-size: large;
+   font-style:oblique;
+   color:  rgb(255, 255, 255);
+  
+   
+}
+.styleGameButton:hover {
+   background-color:  rgba(5, 87, 5, 0.9);
+   border: rgb(40, 40, 40) 4px solid;
+   cursor: url("source/Target.svg"), auto	;
+}
+
+ .img-icon{
+    size: 50px;
+}
+
+ .upperBar{
+   display: inline-block;
+   width: 13.5%;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: large;
+   color: rgb(7, 150, 7);
+   
+}
+ .Bird{
+   position: absolute;
+   left: 0px;
+   height: 50px;
+   width: 100px;
+   cursor: url("source/Target.svg"), auto	;
+}
+ .Bomb{
+   position: absolute;
+   top: 0px;
+   height: 50px;
+   width: 100px;
+   cursor: url("source/Target.svg"), auto	;
+}
+    
